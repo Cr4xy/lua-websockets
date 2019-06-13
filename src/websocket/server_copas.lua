@@ -15,6 +15,7 @@ local client = function(sock,protocol)
   
   local self = {}
   
+  self.sock = sock
   self.state = 'OPEN'
   self.is_server = true
   
